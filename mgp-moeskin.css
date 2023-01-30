@@ -1,0 +1,81 @@
+/**
+ * @author: BearBin
+ * @browser: Google Chrome 109.0.5414.120
+ * @version: 0.1
+ * @date: 2023-01-30 16:26 (UTC+8)
+ */
+
+body.skin-moeskin {
+    --theme-footer-top-color: rgba(238, 238, 238, .7);
+    --theme-footer-bottom-color: rgba(214, 214, 214, .6);
+    --theme-input-background-color: rgba(245, 245, 245, .7);
+    --theme-background-color: rgba(248, 248, 248, .6);
+    --theme-card-background-color: rgba(255, 255, 255, .8);
+}
+ 
+body.skin-moeskin #moe-global-background {
+    position: fixed !important;
+    background-image: url(https://s2.loli.net/2023/01/29/YfOPQRnEvTziBju.jpg);
+    background-size: cover;
+    background-attachment: local;
+    background-position: 25% 10%;
+}
+ 
+body.skin-moeskin #moe-global-background::before,
+body.skin-moeskin #moe-global-background::after {
+    content: none !important;
+}
+ 
+/* 窄屏
+---------------------------------------- */
+@media screen and (max-width: 768px) {
+    body.skin-moeskin #moe-global-background {
+        display: revert !important;
+    }
+}
+ 
+body.skin-moeskin .moe-card {
+    background-color: rgba(255, 255, 255, .81) !important;
+}
+ 
+body.skin-moeskin #moe-global-header {
+    background-color: rgba(255, 255, 255, .85) !important;
+    box-shadow: none !important;
+}
+ 
+body.skin-moeskin .editOptions {
+    background-color: rgba(234, 236, 240, .7);
+}
+ 
+body.skin-moeskin li.gallerybox div.thumb,
+body.skin-moeskin div.thumbinner,
+body.skin-moeskin .mw-warning {
+    background-color: rgba(248, 249, 250, 0.6);
+}
+ 
+body.skin-moeskin li.L1,
+body.skin-moeskin li.L3,
+body.skin-moeskin li.L5,
+body.skin-moeskin li.L7,
+body.skin-moeskin li.L9 {
+    background: rgba(238, 238, 238, 0.7);
+}
+ 
+body.skin-moeskin .infoBoxContent {
+    background-color: rgba(251, 251, 251, 0.6);
+}
+ 
+body.skin-moeskin .template-documentation {
+    background-color: rgba(240, 248, 255, .6) !important;
+}
+ 
+body.skin-moeskin .tracklist .tlheadline,
+body.skin-moeskin .tracklist>table>tbody>tr:nth-child(2n+3),
+body.skin-moeskin .tracklist.tracklist-switch>table>tbody>tr:nth-child(2n+4) {
+    background-color: rgba(255, 255, 255, 0.75) !important;
+}
+ 
+body.skin-moeskin .tracklist>table>tbody>tr:nth-child(2n+4),
+body.skin-moeskin .tracklist.tracklist-switch>table>tbody>tr:nth-child(2n+3) {
+    background-color: rgba(243, 243, 243, 0.75) !important;
+}
