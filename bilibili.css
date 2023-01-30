@@ -6,7 +6,7 @@
 
 /* 通用
 ------------------------------------------------ */
-:root{
+:root {
     --Ga0: rgba(246, 247, 248, .7);
     --bg1: rgba(255, 255, 255, .7);
     --bg2: rgba(246, 247, 248, .8);
@@ -46,9 +46,14 @@ body {
 
 /* 动态
 ------------------------------------------------ */
+aside section.sticky {
+    position: revert;
+}
+
 #app .bg {
     display: none;
 }
+
 .mini-header,
 .bili-dyn-my-info,
 .bili-dyn-live-users,
@@ -100,7 +105,7 @@ div[role="img.webp"] {
 ------------------------------------------------ */
 #biliMainHeader {
     height: 64px !important;
-    
+
 }
 
 #page-index .col-1,
@@ -115,6 +120,11 @@ div.search-page {
 
 #page-video .col-full {
     background-color: transparent;
+}
+
+.bili-comment.browser-pc {
+    padding: .5em;
+    border-radius: 3px;
 }
 
 .main-container .plp-l .media-wrapper,
