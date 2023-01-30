@@ -1,0 +1,83 @@
+/* 通用
+------------------------------------------------ */
+:root{
+    --Ga0: rgba(246, 247, 248, .7);
+    --bg1: rgba(255, 255, 255, .7);
+    --bg2: rgba(246, 247, 248, .8);
+    --bg3: rgba(238, 240, 243, .55);
+}
+
+body {
+    background-image: url(https://s2.loli.net/2023/01/29/YfOPQRnEvTziBju.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 35% 15%;
+}
+
+.live-haruna-ctnr {
+    display: none;
+}
+
+
+/* 首页
+------------------------------------------------ */
+.bili-header .bili-header__banner {
+    min-height: 75px;
+    height: 5vw;
+}
+
+.bili-header .bili-header__channel {
+    background: none;
+}
+
+.bili-video-card .bili-video-card__info {
+    padding: 0 5px 5px;
+}
+
+/* 动态
+------------------------------------------------ */
+#app .bg {
+    display: none;
+}
+.mini-header,
+.bili-dyn-my-info,
+.bili-dyn-live-users,
+.bili-dyn-up-list,
+.bili-dyn-list-tabs,
+.bili-dyn-banner,
+.bili-dyn-login-register,
+.topic-panel,
+.bili-dyn-item {
+    background-color: rgba(255, 255, 255, .83)
+}
+
+.bili-dyn-publishing,
+.bili-rich-textarea__inner {
+    background-color: rgba(255, 255, 255, .9)
+}
+
+.bili-dyn-card-live__body,
+.bili-dyn-card-video__body {
+    background-color: rgba(255, 255, 255, .7)
+}
+
+.dyn-additional-common__wrap,
+.bili-dyn-content__orig.reference {
+    background-color: rgba(244, 245, 247, .6)
+}
+
+.reference .dyn-additional-common__wrap,
+.bili-dyn-card-article,
+.dyn-vote__body {
+    background-color: rgba(255, 255, 255, .6)
+}
+
+/* 直播间
+------------------------------------------------ */
+div[role="img.webp"] {
+    display: none !important;
+}
+
+#sections-vm .left-container>:first-child {
+    display: none !important;
+}
