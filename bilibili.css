@@ -1,13 +1,13 @@
 /**
  * @author: BearBin
  * @browser: Google Chrome 108.0.5359.95
- * @version: 0.2
- * @date: 2023-01-30 21:40 (UTC+8)
+ * @version: 0.2.2
+ * @date: 2023-01-30 21:41 (UTC+8)
  */
 
 /* 通用
 ------------------------------------------------ */
-:root{
+:root {
     --Ga0: rgba(246, 247, 248, .7);
     --bg1: rgba(255, 255, 255, .7);
     --bg2: rgba(246, 247, 248, .8);
@@ -50,6 +50,7 @@ body {
 #app .bg {
     display: none;
 }
+
 .mini-header,
 .bili-dyn-my-info,
 .bili-dyn-live-users,
@@ -101,7 +102,7 @@ div[role="img.webp"] {
 ------------------------------------------------ */
 #biliMainHeader {
     height: 64px !important;
-    
+
 }
 
 #page-index .col-1,
