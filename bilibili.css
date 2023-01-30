@@ -1,8 +1,8 @@
 /**
  * @author: BearBin
  * @browser: Google Chrome 108.0.5359.95
- * @version: 0.1
- * @date: 2023-01-30 16:26 (UTC+8)
+ * @version: 0.2
+ * @date: 2023-01-30 21:40 (UTC+8)
  */
 
 /* 通用
@@ -14,8 +14,12 @@
     --bg3: rgba(238, 240, 243, .55);
 }
 
+html {
+    background: none;
+}
+
 body {
-    background-image: url(https://s2.loli.net/2023/01/29/YfOPQRnEvTziBju.jpg);
+    background-image: url(https://s2.loli.net/2023/01/30/pe29z56G4WnoBXt.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: 35% 15%;
@@ -55,7 +59,7 @@ body {
 .bili-dyn-login-register,
 .topic-panel,
 .bili-dyn-item {
-    background-color: rgba(255, 255, 255, .83)
+    background-color: rgba(255, 255, 255, .84)
 }
 
 .bili-dyn-publishing,
@@ -79,6 +83,10 @@ body {
     background-color: rgba(255, 255, 255, .6)
 }
 
+.bb-comment {
+    background-color: transparent;
+}
+
 /* 直播间
 ------------------------------------------------ */
 div[role="img.webp"] {
@@ -87,4 +95,25 @@ div[role="img.webp"] {
 
 #sections-vm .left-container>:first-child {
     display: none !important;
+}
+
+/* 主页
+------------------------------------------------ */
+#biliMainHeader {
+    height: 64px !important;
+    
+}
+
+#page-index .col-1,
+#page-index .col-2 .section,
+.n .n-inner {
+    background-color: rgba(255, 255, 255, .84);
+}
+
+div.search-page {
+    background-color: rgba(255, 255, 255, .84) !important;
+}
+
+#page-video .col-full {
+    background-color: transparent;
 }
