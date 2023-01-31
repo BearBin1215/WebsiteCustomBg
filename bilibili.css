@@ -136,3 +136,18 @@ div.search-page {
     margin-top: .5em;
     border-radius: 3px;
 }
+
+
+.history-wrap {
+    background: rgba(255, 255, 255, .85);
+    border-radius: 6px;
+    padding: 1em
+}
+
+.history-list .r-info {
+    background: var(--bg1)
+}
+
+.cover-contain {
+    padding-left: .1em;
+}
