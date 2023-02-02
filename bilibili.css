@@ -28,6 +28,11 @@ body {
     display: none;
 }
 
+.bili-header .search-panel,
+.bili-header .center-search-container .center-search__bar #nav-searchform.is-focus {
+    background: #FFF;
+}
+
 
 /* 首页
 ------------------------------------------------ */
